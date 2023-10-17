@@ -1,0 +1,39 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+.header-bg-img{
+    background-image: url('../images/line-img.svg');
+    background-repeat: no-repeat;
+    /* background-position center; */
+    background-position: center;
+}
+.header-last-img{
+    background-image: url('../images/header-bg.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /* padding-bottom: 100px; */
+}
+.popular{
+    height: 24px;
+    border-radius: 4px;
+color: #1E40AF;
+width: 65px;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+
+}
+.desktop-bg{
+    background-image: url('../images/image-9.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card-border{
+    border: 3px solid var(--blue-gray-900, #0F172A);
+    border-radius: 15px;
+}
