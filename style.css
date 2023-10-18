@@ -56,3 +56,29 @@ font-weight: 400;
     border-radius: 10px;
     background-color: white;
 }
+
+
+@media (min-width: 992px) and (max-width: 1500px) { 
+    .main-container{
+        width: 60% !important;
+    }
+ }
+
+@media (min-width: 768px) and (max-width: 991px) { 
+    .main-container{
+        width: 90% !important;
+    }
+    .main-heading{
+        font-size: 48px !important;
+        text-align: left !important;
+        line-height: 1.2;
+    }
+    .container{
+        max-width: 80% !important;
+    }
+    .main-paragraph {
+        font-size: 24px !important;
+        text-align: left !important;
+
+    }
+ }
