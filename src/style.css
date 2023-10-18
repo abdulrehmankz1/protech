@@ -41,3 +41,18 @@ font-weight: 400;
     border-top: 1px solid  #E2E8F0;
 
 }
+.slider-bg{
+    background-image: url('../images/slider-bg-img.svg');
+}
+.active-slider-btn{
+    width: 32px;
+    height: 8px;
+    border-radius: 10px;
+    background-color: #701A75;
+}
+.slider-btn{
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+    background-color: white;
+}
