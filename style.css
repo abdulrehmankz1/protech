@@ -66,11 +66,11 @@ font-weight: 400;
 
 @media (min-width: 768px) and (max-width: 991px) { 
     .main-container{
-        width: 90% !important;
+        width: 80% !important;
     }
     .main-heading{
         font-size: 48px !important;
-        text-align: left !important;
+        /* text-align: left !important; */
         line-height: 1.2;
     }
     .container{
@@ -78,7 +78,31 @@ font-weight: 400;
     }
     .main-paragraph {
         font-size: 24px !important;
-        text-align: left !important;
+        /* text-align: left !important; */
 
     }
+    .request-btn{
+        padding: 15px 30px !important;
+    }
+    .header-bg::before{
+        height: 100px !important;
+        width: 100% !important;
+        position: absolute !important;
+        bottom: 20% !important;
+    }
  }
+ .header-bg{
+    background: url('./images/header-bg.svg') no-repeat #701a75;
+    background-position: bottom;
+    background-size: contain;
+    position: relative;
+ }
+ .header-bg::before{
+    content: ' ';
+    background: url('./images/line-img.svg') no-repeat !important;
+    background-size: contain !important;
+    height: 500px !important;
+    width: 100% !important;
+    position: absolute !important;
+    bottom: 10% !important;
+}

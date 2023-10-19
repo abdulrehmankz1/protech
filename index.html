@@ -20,7 +20,8 @@
                 </a>
                 <div class="flex md:order-2">
                     <button type="button"
-                        class="text-white border border-white w-[167px] focus:ring-4 focus:outline-none font-medium rounded-lg text-base px-4 py-2.5 text-center mr-3 md:mr-0">Request
+                        class="text-white border border-white w-[167px] focus:ring-4 focus:outline-none font-medium rounded-lg text-base px-4 py-2.5 text-center mr-3 md:mr-0">
+                        Request
                         Demo</button>
                     <button data-collapse-toggle="navbar-sticky" type="button"
                         class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -84,7 +85,7 @@
                 </div>
             </div>
         </nav>
-        <section class="mx-auto xl:mt-[64px] lg:mt-[64px] md:mt-8">
+        <section class="mx-auto xl:mt-[64px] lg:mt-[64px] md:mt-8 header-bg">
             <div class="mx-auto main-container">
                 <h1 class="text-center text-white font-extrabold text-6xl roboto main-heading leading-tight">
                     Technology design tools
@@ -95,13 +96,22 @@
                     Sed suspendisse nec lorem mauris.
                 </p>
                 <div class="flex justify-center align-middle">
-                    <button type="button"
+                    <button type="button request-btn"
                         class="mt-[32px] px-12 py-5 roboto font-bold text-2xl bg-[#0f172a] text-white inline-flex items-center focus:outline-none rounded-lg text-center ">
                         Request Demo
                     </button>
                 </div>
             </div>
-            <div class="mt-[80px] md:mt">
+            <div class="mt-[80px] md:mt container m-auto">
+                <div class="">
+                    <div class="relative mx-auto desktop-">
+                        <div class="flex justify-center align-middle  mx-auto relative">
+                            <img src="./images/desktop-img.svg" class="mx-auto" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="mt-[80px] md:mt-16 container">
                 <div class="">
                     <div class="absolute mt-40 w-full mx-auto">
                         <img src="../images/line-img.svg" class="w-full mx-auto" alt="">
@@ -115,7 +125,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </section>
     </section>
     <section class="container mx-auto">
@@ -130,7 +140,8 @@
     <section class="mt-[80px] container mx-auto">
         <div class="mt-[80px] container mx-auto flex justify-between mb-0">
             <div class="w-[50%]">
-                <div class="relative w-[270px] bg-white p-4 rounded-2xl" style="border: 3px solid black;">
+                <img src="./images/Right.svg" alt="">
+                <!-- <div class="relative w-[270px] bg-white p-4 rounded-2xl" style="border: 3px solid black;">
                     <div class="px-1 py-2 bg-[#dbeafe] w-[65px] rounded-md">
                         <div class="px-1">
                             <span class="popular roboto">
@@ -165,7 +176,7 @@
                         <img class="w-12 h-12" src="../images/avatar-4.svg" alt="">
                         <img class="w-12 h-12" src="../images/avatar-5.svg" alt="">
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="w-[48%] mt-[170px]">
                 <h3 class="roboto text-[56px] font-extrabold">
@@ -256,6 +267,9 @@
         </div>
     </section>
     <section class="container mx-auto pt-20 pb-32 bg-[#FBBF24]">
+        
+
+
         <div class="grid grid-cols-6 gap-2 px-6 div-1">
             <div class="col-span-3 flex flex-row justify-start align-middle">
                 <div class="mr-6 mt-[20%] pre-btn" id="prevBtn">
@@ -291,7 +305,7 @@
             </div>
             <div class="col-span-3 mt-4 ">
                 <div class="">
-                    <div class="absolute top-[745%] right-32">
+                    <div class="absolute top-[710%] right-32">
                         <img src="../images/slider-bg-img.svg" class="h-[600px]" alt="">
                     </div>
                     <div class="relative left-3 top-[-20px] ">
@@ -309,7 +323,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-span-1 absolute right-20 top-[4855px] next-btn" id="nextBtn">
+            <div class="col-span-1 absolute right-20 top-[4650px] next-btn" id="nextBtn">
                 <img src="../images//forward.svg" alt="">
             </div>
         </div>
@@ -872,6 +886,7 @@
         </div>
     </footer>
     <script src="./index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
 
 </body>
 
