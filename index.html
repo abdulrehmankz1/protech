@@ -11,20 +11,20 @@
 
 <body>
     <section class="bg-[#701a75]">
-        <nav class="w-full dark:border-gray-600">
-            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6">
-                <a href="https://flowbite.com/" class="flex items-center">
+        <nav class="lg:container xl:container md:w-full sm:w-full mx-auto">
+            <div class="w-full flex flex-wrap items-center justify-between mx-auto p-6">
+                <a href="#" class="flex items-center">
                     <img src="../images/logo.svg" class="h-[32px] w-[22px] mr-3" alt="Flowbite Logo">
                     <span
                         class="self-center text-[32px] font-bold whitespace-nowrap text-white pb-1.5 roboto">protech</span>
                 </a>
                 <div class="flex md:order-2">
                     <button type="button"
-                        class="text-white border border-white w-[167px] focus:ring-4 focus:outline-none font-medium rounded-lg text-base px-4 py-2.5 text-center mr-3 md:mr-0">
+                        class="text-white border roboto border-white xl:w-[167px] lg:w-[167px] md:w-[167px] sm:w-[160px] hidden xl:block lg:block md:block sm:hidden focus:ring-4 focus:outline-none font-medium rounded-lg text-base px-4 py-2.5 text-center mr-3 md:mr-0">
                         Request
                         Demo</button>
                     <button data-collapse-toggle="navbar-sticky" type="button"
-                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-0"
                         aria-controls="navbar-sticky" aria-expanded="false">
                         <span class="sr-only">Open main menu</span>
                         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -45,7 +45,7 @@
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                         stroke-width="2" d="m1 1 4 4 4-4" />
                                 </svg></button>
-                            <div id="dropdownNavbar"
+                            <!-- <div id="dropdownNavbar"
                                 class="z-10 hidden hover:text-blue-500 roboto font-medium text-base text-white  divide-y divide-gray-100 rounded-lg shadow w-44">
                                 <ul class="py-2 text-sm text-gray-700 dark:text-gray-400"
                                     aria-labelledby="dropdownLargeButton">
@@ -67,19 +67,25 @@
                                         class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Sign
                                         out</a>
                                 </div>
-                            </div>
+                            </div> -->
                         </li>
                         <li>
                             <a href="#"
-                                class="block py-2 pl-3 pr-4 text-white rounded md:p-0 hover:text-blue-500 roboto font-medium text-base">Solutions</a>
+                                class="block py-2 pl-3 pr-4 text-white rounded md:p-0 hover:text-blue-500 roboto font-medium xl:text-base lg:text-base md:text-sm text-base">Solutions</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="block py-2 pl-3 pr-4 text-white rounded md:p-0 hover:text-blue-500 roboto font-medium text-base">Resources</a>
+                                class="block py-2 pl-3 pr-4 text-white rounded md:p-0 hover:text-blue-500 roboto font-medium xl:text-base lg:text-base md:text-sm text-base">Resources</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="block py-2 pl-3 pr-4 text-white rounded md:p-0 hover:text-blue-500 roboto font-medium text-base">Pricing</a>
+                                class="block py-2 pl-3 pr-4 text-white rounded md:p-0 hover:text-blue-500 roboto font-medium xl:text-base lg:text-base md:text-sm text-base">Pricing</a>
+                        </li>
+                        <li>
+                            <button type="button"
+                            class="text-white border roboto border-white xl:w-[167px] lg:w-[167px] md:w-[167px] sm:w-[160px] block xl:hidden lg:hidden md:hidden sm:block focus:ring-4 focus:outline-none font-medium rounded-lg xl:text-base lg:text-base md:text-sm text-base roboto px-4 py-2.5 text-center mr-3 md:mr-0">
+                            Request
+                            Demo</button>
                         </li>
                     </ul>
                 </div>
@@ -91,22 +97,25 @@
                     Technology design tools
                     for engineers and hobbyists
                 </h1>
-                <p class="mt-8 font-light text-[32px] text-center text-white roboto main-paragraph">
+                <p class="xl:mt-8 lg:mt-8 md:mt-8 sm:mt-5 mt-4 font-light text-[32px] text-center text-white roboto main-paragraph">
                     Sit elit feugiat turpis sed integer integer accumsan turpis.
                     Sed suspendisse nec lorem mauris.
                 </p>
                 <div class="flex justify-center align-middle">
                     <button type="button request-btn"
-                        class="mt-[32px] px-12 py-5 roboto font-bold text-2xl bg-[#0f172a] text-white inline-flex items-center focus:outline-none rounded-lg text-center ">
+                        class="xl:mt-[32px] lg:mt-[32px] md:mt-[32px] sm:mt-[20px] mt-[15px] xl:px-12 lg:px-12 md:px-9 sm:px-5 px-4 xl:py-5 lg:py-5 md:py-4 sm:py-3 py-3 roboto font-bold xl:text-2xl lg:text-2xl md:text-lg bg-[#0f172a] text-white inline-flex items-center focus:outline-none rounded-lg text-center ">
                         Request Demo
                     </button>
                 </div>
             </div>
-            <div class="mt-[80px] md:mt container m-auto">
+            <div class="xl:mt-[80px] lg:mt-[80px] md:mt-8 sm:mt-6 mt-5 mx-auto container">
                 <div class="">
-                    <div class="relative mx-auto desktop-">
-                        <div class="flex justify-center align-middle  mx-auto relative">
-                            <img src="./images/desktop-img.svg" class="mx-auto" alt="">
+                    <div class="relative mx-auto">
+                        <div class="flex justify-center align-middle  mx-auto relative z-10">
+                            <img src="./images/desktop-img.svg" class="mx-auto md:w-[80%]" alt="">
+                        </div>
+                        <div class="absolute lg:bottom-48 md:bottom-32 xl:bottom-48 sm:bottom-32 bottom-24 line-right">
+                            <img src="./images/line-img.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -129,60 +138,24 @@
         </section>
     </section>
     <section class="container mx-auto">
-        <div class="flex justify-evenly align-middle px-[59.5px] ">
-            <img src="../images/image-1.svg" alt="">
-            <img src="../images/image-2.svg" alt="">
-            <img src="../images/image-3.svg" alt="">
-            <img src="../images/image-4.svg" alt="">
-            <img src="../images/image-5.svg" alt="">
+        <div class="flex justify-evenly align-middle flex-wrap xl:px-[59.5px] lg:px-[59.5px] ">
+            <img src="../images/image-1.svg" class="mb-3" alt="">
+            <img src="../images/image-2.svg" class="mb-3" alt="">
+            <img src="../images/image-3.svg" class="mb-3" alt="">
+            <img src="../images/image-4.svg" class="mb-3" alt="">
+            <img src="../images/image-5.svg" class="mb-3" alt="">
         </div>
     </section>
-    <section class="mt-[80px] container mx-auto">
-        <div class="mt-[80px] container mx-auto flex justify-between mb-0">
-            <div class="w-[50%]">
+    <section class="xl:mt-[80px] lg:mt-[80px] md:mt-10 sm:mt-7 mt-5 container mx-auto">
+        <div class="xl:mt-[80px] lg:mt-[80px] md:mt-10 sm:mt-7 mt-5 mx-auto flex xl:justify-between lg:justify-between md:justify-between sm:justify-center justify-center  md:align-middle flex-wrap mb-0">
+            <div class="xl:w-[50%] lg:w-[50%] md:w-[45%] sm:w-[70%] w-[70%] xl:mx-auto lg:mx-auto">
                 <img src="./images/Right.svg" alt="">
-                <!-- <div class="relative w-[270px] bg-white p-4 rounded-2xl" style="border: 3px solid black;">
-                    <div class="px-1 py-2 bg-[#dbeafe] w-[65px] rounded-md">
-                        <div class="px-1">
-                            <span class="popular roboto">
-                                Popular
-                            </span>
-                        </div>
-                    </div>
-                    <div class="roboto font-semibold text-xl text-[#0F172A] mt-2">
-                        Design for how people think
-                    </div>
-                    <p class="mt-2 roboto text-[#475569] text-sm font-normal">
-                        Aliquam ut euismod condimentum elementum ultricies volutpat sit non.
-                    </p>
-                </div>
-                <div class="absolute left-36 top-[1570px] -z-20">
-                    <img src="../images/image-6.svg" alt="">
-                </div>
-                <div class="relative left-4 mt-3">
-                    <img src="../images/dots-img.svg" alt="">
-                </div>
-                <div class="absolute left-20 top-[1740px]">
-                    <img src="../images/image-8.svg" alt="">
-                </div>
-                <div class="relative left-72 top-[-190px]">
-                    <img src="../images/image-7.svg" alt="">
-                </div>
-                <div class="relative left-72 top-[-165px]">
-                    <div class="flex mb-5 -space-x-4">
-                        <img class="w-12 h-12" src="../images/avatar-1.svg" alt="">
-                        <img class="w-12 h-12" src="../images/avatar-2.svg" alt="">
-                        <img class="w-12 h-12" src="../images/avatar-3.svg" alt="">
-                        <img class="w-12 h-12" src="../images/avatar-4.svg" alt="">
-                        <img class="w-12 h-12" src="../images/avatar-5.svg" alt="">
-                    </div>
-                </div> -->
             </div>
-            <div class="w-[48%] mt-[170px]">
-                <h3 class="roboto text-[56px] font-extrabold">
+            <div class="xl:w-[48%] lg:w-[48%] md:w-[45%] sm:w-[100%] w-100 xl:mt-[170px] lg:mt-[170px] md:mt-[10px] sm:mt-[30px] mt-8">
+                <h3 class="roboto xl:text-[56px] lg:text-[56px] md:text-[35px] sm:text-[28px] text-[22px] font-extrabold ">
                     Efficient collaboration
                 </h3>
-                <p class="mt-8 text-xl font-normal text-[#0F172A] roboto">
+                <p class="xl:mt-8 lg:mt-8 md:mt-2 sm:mt-1 mt-1 xl:text-xl lg:text-xl md:text-lg sm:text-base text-base font-normal text-[#0F172A] roboto ">
                     Mauris consequat, cursus pharetra et, habitasse rhoncus quis odio ac. In et dolor eu donec maecenas
                     nulla. Cum sed orci, sit pellentesque quisque feugiat cras ullamcorper.
                 </p>
@@ -190,87 +163,285 @@
         </div>
     </section>
     <section class="mt-0 container mx-auto">
-        <div class="flex justify-between align-middle">
-            <div class="w-[50%]">
-                <h3 class="roboto text-[56px] font-extrabold mt-[150px]">
+        <div class="flex justify-between align-middle flex-wrap">
+            <div class="xl:w-[50%] lg:w-[50%] md:w-[45%] sm:w-[100%] w-100">
+                <h3
+                    class="roboto xl:text-[56px] lg:text-[56px] md:text-[35px] sm:text-[28px] text-[22px] font-extrabold xl:mt-[150px] lg:mt-[150px] md:mt-[80px] sm:mt-[30px] mt-8">
                     Work from anywhere
                 </h3>
-                <p class="mt-8 text-xl font-normal text-[#0F172A] roboto">
+                <p class="xl:mt-8 lg:mt-8 md:mt-2 sm:mt-1 mt-1 xl:text-xl lg:text-xl md:text-lg sm:text-base text-base font-normal text-[#0F172A] roboto">
                     In et dolor eu donec maecenas nulla. Cum sed orci, sit pellentesque quisque feugiat cras
                     ullamcorper. Ultrices in amet, ullamcorper non viverra a, neque orci.
                 </p>
-                <div class="mt-8 flex">
+                <div class="xl:mt-8 lg:mt-8 md:mt-8 sm:mt-5 mt-3 flex">
                     <img src="../images/appstore-logo.svg" class="me-4" alt="">
                     <img src="../images/playstor-logo.svg" alt="">
                 </div>
             </div>
-            <div class="w-[40%]">
+            <div class="xl:w-[40%] lg:w-[40%] md:w-[40%] sm:w-[70%] w-[70%] md:pt-12 xl:pt-0 lg:pt-0 sm:pt-7 pt-7 xl:ms-0 lg:ms-0 md:ms-0 sm:ms-auto ms-auto">
                 <img src="../images/mobile-img.svg" alt="">
             </div>
         </div>
     </section>
-    <section class="bg-[#0284C7] mt-20 pb-20">
-        <div class="container mx-auto pt-14">
-            <h2 class=" text-white roboto text-[56px] font-extrabold text-center">
+    <section class="bg-[#0284C7] xl:mt-20 lg:mt-20 md:mt-14 sm:mt-10 mt-7 xl:pb-20 lg:pb-20 md:pb-14 sm:pb-10 pb-7">
+        <div class="container mx-auto xl:pt-14 lg:pt-14 md:pt-10 sm:pt-7 pt-5">
+            <h2 class=" text-white roboto xl:text-[56px] lg:text-[56px] main-heading font-extrabold text-center">
                 All the tech & design tools combined
             </h2>
-            <p class="mt-8 text-3xl font-light roboto text-white text-center">
+            <p
+                class="xl:mt-8 lg:mt-8 md:mt-3 sm:mt-2 mt-2 xl:text-3xl lg:text-3xl main-paragraph font-light roboto text-white text-center">
                 Turpis purus, imperdiet integer amet, eu.
             </p>
             <div class="flex justify-center align-middle">
-                <button type="button"
-                    class="mt-[32px] px-12 py-5 roboto font-bold text-2xl bg-[#0f172a] text-white inline-flex items-center focus:outline-none rounded-lg text-center ">
+                <button type="button request-btn"
+                    class="xl:mt-[32px] lg:mt-[32px] md:mt-[32px] sm:mt-[25px] mt-[15px] xl:px-12 lg:px-12 md:px-9 sm:px-5 px-4 xl:py-5 lg:py-5 md:py-4 sm:py-3 py-3 roboto font-bold xl:text-2xl lg:text-2xl md:text-lg sm:text-lg text-base bg-[#0f172a] text-white inline-flex items-center focus:outline-none rounded-lg text-center ">
                     Request Demo
                 </button>
             </div>
         </div>
     </section>
-    <section class="mt-20 container mx-auto">
-        <h2 class="roboto text-[56px] font-extrabold text-center">
+    <section class="xl:mt-20 lg:mt-20 md:mt-14 sm:mt-10 mt-7 container mx-auto">
+        <h2 class="roboto xl:text-[56px] lg:text-[56px] main-heading font-extrabold text-center">
             Get your business to grow fast
         </h2>
-        <p class="mt-8 text-[#0F172A] roboto text-xl font-normal text-center">
+        <p
+            class="xl:mt-8 lg:mt-8 md:mt-3 sm:mt-2 mt-2 xl:text-xl lg:text-xl md:text-lg sm:text-base text-base text-[#0F172A] roboto font-normal xl:text-center lg:text-center md:text-center sm:text-left text-left">
             Aliquet id quam amet, augue netus tristique elementum eros urna. Dignissim nisl mauris cras feugiat
         </p>
-        <p class="text-[#0F172A] roboto text-xl font-normal text-center">
+        <p class="text-[#0F172A] roboto xl:text-xl lg:text-xl md:text-lg sm:text-base text-base font-normal xl:text-center lg:text-center md:text-center sm:text-left text-left">
             congue at euismod donec.Lectus interdum nibh laoreet nunc bibendum volutpat. </p>
     </section>
-    <section class="mt-20 container mx-auto">
+    <section class="xl:mt-20 lg:mt-20 md:mt-10 m:mt-7 mt-5 container mx-auto">
         <div class="desktop-bg flex justify-center align-middle">
-            <img src="../images/desktop-img.svg" alt="">
+            <img src="../images/desktop-img.svg" class="desktop-image" alt="">
         </div>
-        <div class="mt-20 flex justify-evenly align-middle mb-20">
-            <div class="flex justify-start align-middle flex-col w-[370px]">
+        <div class="xl:mt-20 lg:mt-20 md:mt-10 sm:mt-7 mt-5 flex justify-evenly align-middle xl:flex-nowrap lg:flex-nowrap md:flex-nowrap sm:flex-wrap flex-wrap xl:mb-20 lg:mb-20 md:mb-20 sm:mb-10 mb-7">
+            <div class="flex justify-start align-middle flex-col xl:w-[370px] lg:w-[370px] md:w-[370px] sm:w-[350px] w-[370px] xl:mt-0 lg:mt-0 md:mt-0 sm:mt-5 mt-5">
                 <img src="../images/timer.svg" class="w-16 h-16 mx-auto" alt="">
-                <h6 class="text-2xl text-center roboto font-bold text-[#0F172A] mt-4">
+                <h6 class="xl:text-2xl lg:text-2xl md:text-xl sm:text-xl text-xl text-center roboto font-bold text-[#0F172A] mt-4">
                     Nisl arcu nunc
                 </h6>
-                <p class="text-[#0F172A] roboto text-md font-normal text-center">
+                <p class="text-[#0F172A] roboto xl:text-lg lg:text-lg md:text-base sm:text-base text-base font-normal text-center">
                     Dui consectetur gravida platea ut dis diam. Enim morbi proin auctor et.
                 </p>
             </div>
-            <div class=" flex justify-start align-middle flex-col w-[370px]">
+            <div class=" flex justify-start align-middle flex-col xl:w-[370px] lg:w-[370px] md:w-[370px] sm:w-[350px] w-[370px] xl:mt-0 lg:mt-0 md:mt-0 sm:mt-5 mt-5">
                 <img src="../images/tournament.svg" class="w-16 h-16 mx-auto" alt="">
-                <h6 class="text-2xl text-center roboto font-bold text-[#0F172A] mt-4">
+                <h6 class="xl:text-2xl lg:text-2xl md:text-xl sm:text-xl text-xl text-center roboto font-bold text-[#0F172A] mt-4">
                     Dui scelerisque
                 </h6>
-                <p class="text-[#0F172A] roboto text-md font-normal text-center">
+                <p class="text-[#0F172A] roboto xl:text-lg lg:text-lg md:text-base sm:text-base text-base font-normal text-center">
                     Et sit duis vestibulum proin. Sollicitudin velit, etiam a feugiat sagittis. </p>
             </div>
-            <div class=" flex justify-start align-middle flex-col w-[370px]">
+            <div class=" flex justify-start align-middle flex-col xl:w-[370px] lg:w-[370px] md:w-[370px] sm:w-[350px] w-[370px] xl:mt-0 lg:mt-0 md:mt-0 sm:mt-5 mt-5">
                 <img src="../images/three-stars.svg" class="w-16 h-16 mx-auto" alt="">
-                <h6 class="text-lg text-center roboto font-bold text-[#0F172A] mt-4">
+                <h6 class="xl:text-2xl lg:text-2xl md:text-xl sm:text-xl text-xl text-center roboto font-bold text-[#0F172A] mt-4">
                     Ac proin at </h6>
-                <p class="text-[#0F172A] roboto text-md font-normal text-center">
+                <p class="text-[#0F172A] roboto xl:text-lg lg:text-lg md:text-base sm:text-base text-base font-normal text-center">
                     Elit purus magna donec mattis amet, leo varius sed. Ut metus sed convallis. </p>
             </div>
         </div>
     </section>
-    <section class="container mx-auto pt-20 pb-32 bg-[#FBBF24]">
-        
+    <section class="container mx-auto bg-[#FBBF24] hidden xl:block lg:block">
+        <swiper-container class="mySwiper xl:px-20 lg:px-20 md:px-7" navigation="true">
+            <swiper-slide>
+                <div class="flex justify-between align-middle flex-wrap text-left w-full ">
+                    <span class="xl:w-[45%] lg:w-[45%] md:w-[30%] mt-28">
+                        <div class="my-4 pl-14">
+                            <p
+                                class="roboto xl:text-[22px] lg:text-[22px] md:text-base text-left font-normal text-[#0F172A] ">
+                                Id urna, nisl, ut quam. Diam suspendisse fringilla quam arcu mattis est velit in. Nibh
+                                in purus
+                                sit
+                                convallis phasellus ut. At vel erat ultricies commodo. Neque suspendisse a habitasse
+                                commodo.
+                            </p>
+                            <div class="mt-4">
+                                <div class="text-[#0F172A] roboto xl:text-xl lg:text-xl md:text-base font-normal">
+                                    Marie Poirot,
+                                    Bigapp
+                                </div>
+                                <div class="text-[#0F172A] roboto xl:text-xl lg:text-xl md:text-base font-bold">
+                                    Bigapp
+                                </div>
+                            </div>
+                            <div class="mt-12 flex">
+                                <div class="active-slider-btn mr-2"></div>
+                                <div class="slider-btn mr-2"></div>
+                                <div class="slider-btn mr-2"></div>
+                                <div class="slider-btn mr-2"></div>
+                                <div class="slider-btn mr-2"></div>
+                            </div>
+                        </div>
 
+                    </span>
+                    <span class='xl:pr-7 lg:pr-7 md:pr-10 xl:w-[45%] lg:w-[55%]'>
+                        <img src="./images/slider-right-img.svg" class="xl:w-full lg:w-full md:w-[350px]" alt="">
 
-        <div class="grid grid-cols-6 gap-2 px-6 div-1">
+                    </span>
+
+                </div>
+
+            </swiper-slide>
+            <swiper-slide>
+                <div class="flex justify-between align-middle flex-wrap text-left w-full ">
+                    <span class="xl:w-[45%] lg:w-[45%] md:w-[30%] mt-28">
+                        <div class="my-4 pl-14">
+                            <p
+                                class="roboto xl:text-[22px] lg:text-[22px] md:text-base text-left font-normal text-[#0F172A] ">
+                                Id urna, nisl, ut quam. Diam suspendisse fringilla quam arcu mattis est velit in. Nibh
+                                in purus
+                                sit
+                                convallis phasellus ut. At vel erat ultricies commodo. Neque suspendisse a habitasse
+                                commodo.
+                            </p>
+                            <div class="mt-4">
+                                <div class="text-[#0F172A] roboto xl:text-xl lg:text-xl md:text-base font-normal">
+                                    Marie Poirot,
+                                    Bigapp
+                                </div>
+                                <div class="text-[#0F172A] roboto xl:text-xl lg:text-xl md:text-base font-bold">
+                                    Bigapp
+                                </div>
+                            </div>
+                            <div class="mt-12 flex">
+                                <div class="slider-btn mr-2"></div>
+                                <div class="active-slider-btn mr-2"></div>
+                                <div class="slider-btn mr-2"></div>
+                                <div class="slider-btn mr-2"></div>
+                                <div class="slider-btn mr-2"></div>
+                            </div>
+                        </div>
+
+                    </span>
+                    <span class='xl:pr-7 lg:pr-7 md:pr-10 xl:w-[45%] lg:w-[55%]'>
+                        <img src="./images/slider-right-img.svg" class="xl:w-full lg:w-full md:w-[350px]" alt="">
+
+                    </span>
+
+                </div>
+
+            </swiper-slide>
+            <swiper-slide>
+                <div class="flex justify-between align-middle flex-wrap text-left w-full ">
+                    <span class="xl:w-[45%] lg:w-[45%] md:w-[30%] mt-28">
+                        <div class="my-4 pl-14">
+                            <p
+                                class="roboto xl:text-[22px] lg:text-[22px] md:text-base text-left font-normal text-[#0F172A] ">
+                                Id urna, nisl, ut quam. Diam suspendisse fringilla quam arcu mattis est velit in. Nibh
+                                in purus
+                                sit
+                                convallis phasellus ut. At vel erat ultricies commodo. Neque suspendisse a habitasse
+                                commodo.
+                            </p>
+                            <div class="mt-4">
+                                <div class="text-[#0F172A] roboto xl:text-xl lg:text-xl md:text-base font-normal">
+                                    Marie Poirot,
+                                    Bigapp
+                                </div>
+                                <div class="text-[#0F172A] roboto xl:text-xl lg:text-xl md:text-base font-bold">
+                                    Bigapp
+                                </div>
+                            </div>
+                            <div class="mt-12 flex">
+                                <div class="slider-btn mr-2"></div>
+                                <div class="slider-btn mr-2"></div>
+                                <div class="active-slider-btn mr-2"></div>
+                                <div class="slider-btn mr-2"></div>
+                                <div class="slider-btn mr-2"></div>
+                            </div>
+                        </div>
+
+                    </span>
+                    <span class='xl:pr-7 lg:pr-7 md:pr-10 xl:w-[45%] lg:w-[55%]'>
+                        <img src="./images/slider-right-img.svg" class="xl:w-full lg:w-full md:w-[350px]" alt="">
+
+                    </span>
+
+                </div>
+
+            </swiper-slide>
+            <swiper-slide>
+                <div class="flex justify-between align-middle flex-wrap text-left w-full ">
+                    <span class="xl:w-[45%] lg:w-[45%] md:w-[30%] mt-28">
+                        <div class="my-4 pl-14">
+                            <p
+                                class="roboto xl:text-[22px] lg:text-[22px] md:text-base text-left font-normal text-[#0F172A] ">
+                                Id urna, nisl, ut quam. Diam suspendisse fringilla quam arcu mattis est velit in. Nibh
+                                in purus
+                                sit
+                                convallis phasellus ut. At vel erat ultricies commodo. Neque suspendisse a habitasse
+                                commodo.
+                            </p>
+                            <div class="mt-4">
+                                <div class="text-[#0F172A] roboto xl:text-xl lg:text-xl md:text-base font-normal">
+                                    Marie Poirot,
+                                    Bigapp
+                                </div>
+                                <div class="text-[#0F172A] roboto xl:text-xl lg:text-xl md:text-base font-bold">
+                                    Bigapp
+                                </div>
+                            </div>
+                            <div class="mt-12 flex">
+                                <div class="slider-btn mr-2"></div>
+                                <div class="slider-btn mr-2"></div>
+                                <div class="slider-btn mr-2"></div>
+                                <div class="active-slider-btn mr-2"></div>
+
+                                <div class="slider-btn mr-2"></div>
+                            </div>
+                        </div>
+
+                    </span>
+                    <span class='xl:pr-7 lg:pr-7 md:pr-10 xl:w-[45%] lg:w-[55%]'>
+                        <img src="./images/slider-right-img.svg" class="xl:w-full lg:w-full md:w-[350px]" alt="">
+
+                    </span>
+
+                </div>
+
+            </swiper-slide>
+            <swiper-slide>
+                <div class="flex justify-between align-middle flex-wrap text-left w-full ">
+                    <span class="xl:w-[45%] lg:w-[45%] md:w-[30%] mt-28">
+                        <div class="my-4 pl-14">
+                            <p
+                                class="roboto xl:text-[22px] lg:text-[22px] md:text-base text-left font-normal text-[#0F172A] ">
+                                Id urna, nisl, ut quam. Diam suspendisse fringilla quam arcu mattis est velit in. Nibh
+                                in purus
+                                sit
+                                convallis phasellus ut. At vel erat ultricies commodo. Neque suspendisse a habitasse
+                                commodo.
+                            </p>
+                            <div class="mt-4">
+                                <div class="text-[#0F172A] roboto xl:text-xl lg:text-xl md:text-base font-normal">
+                                    Marie Poirot,
+                                    Bigapp
+                                </div>
+                                <div class="text-[#0F172A] roboto xl:text-xl lg:text-xl md:text-base font-bold">
+                                    Bigapp
+                                </div>
+                            </div>
+                            <div class="mt-12 flex">
+                                <div class="slider-btn mr-2"></div>
+                                <div class="slider-btn mr-2"></div>
+                                <div class="slider-btn mr-2"></div>
+                                <div class="slider-btn mr-2"></div>
+                                <div class="active-slider-btn mr-2"></div>
+                            </div>
+                        </div>
+
+                    </span>
+                    <span class='xl:pr-7 lg:pr-7 md:pr-10 xl:w-[45%] lg:w-[55%]'>
+                        <img src="./images/slider-right-img.svg" class="xl:w-full lg:w-full md:w-[350px]" alt="">
+
+                    </span>
+
+                </div>
+
+            </swiper-slide>
+        </swiper-container>
+        <!-- <div class="grid grid-cols-6 gap-2 px-6 div-1">
             <div class="col-span-3 flex flex-row justify-start align-middle">
                 <div class="mr-6 mt-[20%] pre-btn" id="prevBtn">
                     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="49" viewBox="0 0 48 49" fill="none">
@@ -326,128 +497,230 @@
             <div class="col-span-1 absolute right-20 top-[4650px] next-btn" id="nextBtn">
                 <img src="../images//forward.svg" alt="">
             </div>
-        </div>
-        <!-- <div class="grid grid-cols-6 gap-2 px-6 div-2">
-            <div class="col-span-3 flex flex-row justify-start align-middle">
-                <div class="mr-6 mt-[20%] pre-btn" id="prevBtn">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="49" viewBox="0 0 48 49" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M32.341 9.40901C33.2197 10.2877 33.2197 11.7123 32.341 12.591L20.432 24.5L32.341 36.409C33.2197 37.2877 33.2197 38.7123 32.341 39.591C31.4623 40.4697 30.0377 40.4697 29.159 39.591L15.659 26.091C14.7803 25.2123 14.7803 23.7877 15.659 22.909L29.159 9.40901C30.0377 8.53033 31.4623 8.53033 32.341 9.40901Z"
-                            fill="white" />
-                    </svg>
-                </div>
-                <div class="my-4">
-                    <p class="roboto text-2xl font-normal text-[#0F172A]">
-                        Id urna, nisl, ut quam. Diam suspendisse fringilla quam arcu mattis est velit in. Nibh in purus
-                        sit
-                        convallis phasellus ut. At vel erat ultricies commodo. Neque suspendisse a habitasse commodo.
-                    </p>
-                    <div class="mt-4">
-                        <div class="text-[#0F172A] roboto text-xl font-normal">
-                            Marie Poirot,
-                            Bigapp
-                        </div>
-                        <div class="text-[#0F172A] roboto text-xl font-bold">
-                            Bigapp
-                        </div>
-                    </div>
-                    <div class="mt-12 flex">
-                        <div class="active-slider-btn mr-2"></div>
-                        <div class="slider-btn mr-2"></div>
-                        <div class="slider-btn mr-2"></div>
-                        <div class="slider-btn mr-2"></div>
-                        <div class="slider-btn mr-2"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-span-3 mt-4 ">
-                <div class="">
-                    <div class="absolute top-[745%] right-32">
-                        <img src="../images/slider-bg-img.svg" class="h-[600px]" alt="">
-                    </div>
-                    <div class="relative left-3 top-[-20px] ">
-                       <div class="relative">
-                        <div class="absolute">
-                            <img src="../images/slider-img.svg" class="w-[500px] h-[370px]" alt="">
-                        </div>
-                        <div class="relative top-[270px] left-10">
-                            <img src="../images/slider-dots.svg" class="h-[125px] ml-4"  alt="">
-                        </div>
-                       </div>
-                       <div class="absolute top-[-60px] right-[180px]">
-                        <img src="../images/chat-quote.svg" class="top-0" alt="">
-                       </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-span-1 absolute right-20 top-[4855px] next-btn" id="nextBtn">
-                <img src="../images//forward.svg" alt="">
-            </div>
-        </div>
-        <div class="grid grid-cols-6 gap-2 px-6 div-3">
-            <div class="col-span-3 flex flex-row justify-start align-middle">
-                <div class="mr-6 mt-[20%] pre-btn" id="prevBtn">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="49" viewBox="0 0 48 49" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M32.341 9.40901C33.2197 10.2877 33.2197 11.7123 32.341 12.591L20.432 24.5L32.341 36.409C33.2197 37.2877 33.2197 38.7123 32.341 39.591C31.4623 40.4697 30.0377 40.4697 29.159 39.591L15.659 26.091C14.7803 25.2123 14.7803 23.7877 15.659 22.909L29.159 9.40901C30.0377 8.53033 31.4623 8.53033 32.341 9.40901Z"
-                            fill="white" />
-                    </svg>
-                </div>
-                <div class="my-4">
-                    <p class="roboto text-2xl font-normal text-[#0F172A]">
-                        Id urna, nisl, ut quam. Diam suspendisse fringilla quam arcu mattis est velit in. Nibh in purus
-                        sit
-                        convallis phasellus ut. At vel erat ultricies commodo. Neque suspendisse a habitasse commodo.
-                    </p>
-                    <div class="mt-4">
-                        <div class="text-[#0F172A] roboto text-xl font-normal">
-                            Marie Poirot,
-                            Bigapp
-                        </div>
-                        <div class="text-[#0F172A] roboto text-xl font-bold">
-                            Bigapp
-                        </div>
-                    </div>
-                    <div class="mt-12 flex">
-                        <div class="active-slider-btn mr-2"></div>
-                        <div class="slider-btn mr-2"></div>
-                        <div class="slider-btn mr-2"></div>
-                        <div class="slider-btn mr-2"></div>
-                        <div class="slider-btn mr-2"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-span-3 mt-4 ">
-                <div class="">
-                    <div class="absolute top-[745%] right-32">
-                        <img src="../images/slider-bg-img.svg" class="h-[600px]" alt="">
-                    </div>
-                    <div class="relative left-3 top-[-20px] ">
-                       <div class="relative">
-                        <div class="absolute">
-                            <img src="../images/slider-img.svg" class="w-[500px] h-[370px]" alt="">
-                        </div>
-                        <div class="relative top-[270px] left-10">
-                            <img src="../images/slider-dots.svg" class="h-[125px] ml-4"  alt="">
-                        </div>
-                       </div>
-                       <div class="absolute top-[-60px] right-[180px]">
-                        <img src="../images/chat-quote.svg" class="top-0" alt="">
-                       </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-span-1 absolute right-20 top-[4855px] next-btn" id="nextBtn">
-                <img src="../images//forward.svg" alt="">
-            </div>
         </div> -->
+
     </section>
-  
-    <section class="container mx-auto mt-20">
-        <h3 class="roboto text-[56px] text-center font-extrabold text-[#0F172A]">
+    <section class="container mx-auto bg-[#FBBF24] block xl:hidden lg:hidden">
+        <div class="">
+            <div class="carousel-container">
+                <div class="flex justify-around align-middle mt-10 w-20 ml-9">
+                    <button id="prevBtn" class="carousel-btn prev-btn">
+                        <img src="./images/back.svg" alt="">
+                    </button>
+                    <button id="nextBtn" class="carousel-btn next-btn">
+                        <img src="./images/forward.svg" alt="">
+                    </button>
+                </div>
+                <div class="carousel">
+                    <div class="carousel-item w-full px-10">
+                        <div class="">
+                            <div class="md:flex justify-evenly align-middle">
+                                <div class="md:my-16 w-100 sm:w-100 md:w-[50%] ">
+                                    <p class="roboto md:text-lg text-left font-normal text-[#0F172A] ">
+                                        Id urna, nisl, ut quam. Diam suspendisse fringilla quam arcu mattis est velit
+                                        in. Nibh
+                                        in purus
+                                        sit
+                                        convallis phasellus ut. At vel erat ultricies commodo. Neque suspendisse a
+                                        habitasse
+                                        commodo.
+                                    </p>
+                                    <div class="mt-4">
+                                        <div class="text-[#0F172A] roboto md:text-base font-normal">
+                                            Marie Poirot,
+                                            Bigapp
+                                        </div>
+                                        <div class="text-[#0F172A] roboto  md:text-base font-bold">
+                                            Bigapp
+                                        </div>
+                                    </div>
+                                    <div class="mt-5 flex">
+                                        <div class="active-slider-btn mr-2"></div>
+                                        <div class="slider-btn mr-2"></div>
+                                        <div class="slider-btn mr-2"></div>
+                                        <div class="slider-btn mr-2"></div>
+                                        <div class="slider-btn mr-2"></div>
+                                    </div>
+                                </div>
+                                <div class="w-full md:w-[50%] hidden md:block">
+                                    <img class="w-[350px]" src="./images/slider-right-img.svg" alt="">
+                                </div>
+                                <div class="w-full md:w-[50%] mt-[00px] md:hidden flex justify-end">
+                                    <img class="w-[350px] h-[350px]" src="./images/slider-right-img.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item w-full px-10">
+                        <div class="">
+                            <div class="md:flex justify-evenly align-middle">
+                                <div class="md:my-16 w-100 sm:w-100 md:w-[50%] ">
+                                    <p class="roboto md:text-lg text-left font-normal text-[#0F172A] ">
+                                        Id urna, nisl, ut quam. Diam suspendisse fringilla quam arcu mattis est velit
+                                        in. Nibh
+                                        in purus
+                                        sit
+                                        convallis phasellus ut. At vel erat ultricies commodo. Neque suspendisse a
+                                        habitasse
+                                        commodo.
+                                    </p>
+                                    <div class="mt-4">
+                                        <div class="text-[#0F172A] roboto md:text-base font-normal">
+                                            Marie Poirot,
+                                            Bigapp
+                                        </div>
+                                        <div class="text-[#0F172A] roboto  md:text-base font-bold">
+                                            Bigapp
+                                        </div>
+                                    </div>
+                                    <div class="mt-5 flex">
+                                        <div class="slider-btn mr-2"></div>
+                                        <div class="active-slider-btn mr-2"></div>
+                                        <div class="slider-btn mr-2"></div>
+                                        <div class="slider-btn mr-2"></div>
+                                        <div class="slider-btn mr-2"></div>
+                                    </div>
+                                </div>
+                                <div class="w-full md:w-[50%] hidden md:block">
+                                    <img class="w-[350px]" src="./images/slider-right-img.svg" alt="">
+                                </div>
+                                <div class="w-full md:w-[50%] mt-[00px] md:hidden flex justify-end">
+                                    <img class="w-[350px] h-[350px]" src="./images/slider-right-img.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item w-full px-10">
+                        <div class="">
+                            <div class="md:flex justify-evenly align-middle">
+                                <div class="md:my-16 w-100 sm:w-100 md:w-[50%] ">
+                                    <p class="roboto md:text-lg text-left font-normal text-[#0F172A] ">
+                                        Id urna, nisl, ut quam. Diam suspendisse fringilla quam arcu mattis est velit
+                                        in. Nibh
+                                        in purus
+                                        sit
+                                        convallis phasellus ut. At vel erat ultricies commodo. Neque suspendisse a
+                                        habitasse
+                                        commodo.
+                                    </p>
+                                    <div class="mt-4">
+                                        <div class="text-[#0F172A] roboto md:text-base font-normal">
+                                            Marie Poirot,
+                                            Bigapp
+                                        </div>
+                                        <div class="text-[#0F172A] roboto  md:text-base font-bold">
+                                            Bigapp
+                                        </div>
+                                    </div>
+                                    <div class="mt-5 flex">
+                                        <div class="slider-btn mr-2"></div>
+                                        <div class="slider-btn mr-2"></div>
+                                        <div class="active-slider-btn mr-2"></div>
+                                        <div class="slider-btn mr-2"></div>
+                                        <div class="slider-btn mr-2"></div>
+                                    </div>
+                                </div>
+                                <div class="w-full md:w-[50%] hidden md:block">
+                                    <img class="w-[350px]" src="./images/slider-right-img.svg" alt="">
+                                </div>
+                                <div class="w-full md:w-[50%] mt-[00px] md:hidden flex justify-end">
+                                    <img class="w-[350px] h-[350px]" src="./images/slider-right-img.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item w-full px-10">
+                        <div class="">
+                            <div class="md:flex justify-evenly align-middle">
+                                <div class="md:my-16 w-100 sm:w-100 md:w-[50%] ">
+                                    <p class="roboto md:text-lg text-left font-normal text-[#0F172A] ">
+                                        Id urna, nisl, ut quam. Diam suspendisse fringilla quam arcu mattis est velit
+                                        in. Nibh
+                                        in purus
+                                        sit
+                                        convallis phasellus ut. At vel erat ultricies commodo. Neque suspendisse a
+                                        habitasse
+                                        commodo.
+                                    </p>
+                                    <div class="mt-4">
+                                        <div class="text-[#0F172A] roboto md:text-base font-normal">
+                                            Marie Poirot,
+                                            Bigapp
+                                        </div>
+                                        <div class="text-[#0F172A] roboto  md:text-base font-bold">
+                                            Bigapp
+                                        </div>
+                                    </div>
+                                    <div class="mt-5 flex">
+                                        <div class="slider-btn mr-2"></div>
+                                        <div class="slider-btn mr-2"></div>
+                                        <div class="slider-btn mr-2"></div>
+                                        <div class="active-slider-btn mr-2"></div>
+                                        <div class="slider-btn mr-2"></div>
+                                    </div>
+                                </div>
+                                <div class="w-full md:w-[50%] hidden md:block">
+                                    <img class="w-[350px]" src="./images/slider-right-img.svg" alt="">
+                                </div>
+                                <div class="w-full md:w-[50%] mt-[00px] md:hidden flex justify-end">
+                                    <img class="w-[350px] h-[350px]" src="./images/slider-right-img.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item w-full px-10">
+                        <div class="">
+                            <div class="md:flex justify-evenly align-middle">
+                                <div class="md:my-16 w-100 sm:w-100 md:w-[50%] ">
+                                    <p class="roboto md:text-lg text-left font-normal text-[#0F172A] ">
+                                        Id urna, nisl, ut quam. Diam suspendisse fringilla quam arcu mattis est velit
+                                        in. Nibh
+                                        in purus
+                                        sit
+                                        convallis phasellus ut. At vel erat ultricies commodo. Neque suspendisse a
+                                        habitasse
+                                        commodo.
+                                    </p>
+                                    <div class="mt-4">
+                                        <div class="text-[#0F172A] roboto md:text-base font-normal">
+                                            Marie Poirot,
+                                            Bigapp
+                                        </div>
+                                        <div class="text-[#0F172A] roboto  md:text-base font-bold">
+                                            Bigapp
+                                        </div>
+                                    </div>
+                                    <div class="mt-5 flex">
+                                        <div class="slider-btn mr-2"></div>
+                                        <div class="slider-btn mr-2"></div>
+                                        <div class="slider-btn mr-2"></div>
+                                        <div class="slider-btn mr-2"></div>
+                                        <div class="active-slider-btn mr-2"></div>
+
+                                    </div>
+                                </div>
+                                <div class="w-full md:w-[50%] hidden md:block">
+                                    <img class="w-[350px]" src="./images/slider-right-img.svg" alt="">
+                                </div>
+                                <div class="w-full md:w-[50%] mt-[00px] md:hidden flex justify-end">
+                                    <img class="w-[350px] h-[350px]" src="./images/slider-right-img.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="container mx-auto xl:mt-20 lg:mt-20 md:mt-10 sm:mt-7 mt-5">
+        <h3 class="roboto xl:text-[56px] lg:text-[56px] main-heading text-center font-extrabold text-[#0F172A]">
             The features you were looking for
         </h3>
-        <div class="flex justify-around align-middle my-20">
+        <!-- <div class="flex justify-around align-middlee flex-wrap ">
             <div class="w-[295px] bg-white">
                 <a href="#">
                     <img class="rounded-t-lg mb-3" src="../images/card-img-1.svg" alt="" />
@@ -490,8 +763,7 @@
                         Massa mi pharetra viverra risus ornare sit. Viverra tortor, nulla et tellus, nunc. </p>
                 </div>
             </div>
-        </div>
-        <div class="flex justify-around align-middle my-10">
+
             <div class="w-[295px] bg-white">
                 <a href="#">
                     <img class="rounded-t-lg mb-3" src="../images/card-img-4.svg" alt="" />
@@ -534,30 +806,133 @@
                         consectetur. </p>
                 </div>
             </div>
+        </div> -->
+
+        <div class="container mx-auto flex justify-between align-middle flex-wrap xl:my-20 lg:my-20 md:my-7 sm:my-5 my-4">
+            <div class="box">
+                <div class="bg-white">
+                    <a href="#">
+                        <img class="rounded-t-lg mb-3" src="../images/card-img-1.svg" alt="" />
+                    </a>
+                    <div class="py-5">
+                        <a href="#">
+                            <h5 class="mb-2 roboto text-[#0F172A] text-xl font-bold">
+                                Pellentesque turpis vestibulum
+                            </h5>
+                        </a>
+                        <p class="mb-4 text-[#0F172A] roboto text-md font-light">
+                            Ullamcorper enim, diam eros sed et vitae sit. Platea porttitor consequat, lorem in arcu et.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="bg-white">
+                    <a href="#">
+                        <img class="rounded-t-lg mb-3" src="../images/card-img-2.svg" alt="" />
+                    </a>
+                    <div class="py-5">
+                        <a href="#">
+                            <h5 class="mb-2 roboto text-[#0F172A] text-xl font-bold">
+                                Tincidunt quisque
+                            </h5>
+                        </a>
+                        <p class="mb-4 text-[#0F172A] roboto text-md font-light">
+                            Blandit ut tortor non, imperdiet. Morbi quam facilisis a nec tortor. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="bg-white">
+                    <a href="#">
+                        <img class="rounded-t-lg mb-3" src="../images/card-img-3.svg" alt="" />
+                    </a>
+                    <div class="py-5">
+                        <a href="#">
+                            <h5 class="mb-2 roboto text-[#0F172A] text-xl font-bold">
+                                Tincidunt magna diam </h5>
+                        </a>
+                        <p class="mb-4 text-[#0F172A] roboto text-md font-light">
+                            Massa mi pharetra viverra risus ornare sit. Viverra tortor, nulla et tellus, nunc. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="bg-white">
+                    <a href="#">
+                        <img class="rounded-t-lg mb-3" src="../images/card-img-4.svg" alt="" />
+                    </a>
+                    <div class="py-5">
+                        <a href="#">
+                            <h5 class="mb-2 roboto text-[#0F172A] text-xl font-bold">
+                                Purus habitasse </h5>
+                        </a>
+                        <p class="mb-4 text-[#0F172A] roboto text-md font-light">
+                            Massa arcu ut id risus et. Neque mauris sagittis cursus tincidunt egestas faucibus amet
+                            adipiscing scelerisque. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="bg-white">
+                    <a href="#">
+                        <img class="rounded-t-lg mb-3" src="../images/card-img-5.svg" alt="" />
+                    </a>
+                    <div class="py-5">
+                        <a href="#">
+                            <h5 class="mb-2 roboto text-[#0F172A] text-xl font-bold">
+                                Dictum elementum </h5>
+                        </a>
+                        <p class="mb-4 text-[#0F172A] roboto text-md font-light">
+                            Ullamcorper aliquam maecenas sapien sapien tempus tincidunt urna tempus. Dignissim ut felis
+                            a
+                            dui a massa risus. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="bg-white">
+                    <a href="#">
+                        <img class="rounded-t-lg mb-3" src="../images/card-img-6.svg" alt="" />
+                    </a>
+                    <div class="py-5">
+                        <a href="#">
+                            <h5 class="mb-2 roboto text-[#0F172A] text-xl font-bold">
+                                Semper vulputate ut </h5>
+                        </a>
+                        <p class="mb-4 text-[#0F172A] roboto text-md font-light">
+                            Tortor arcu eget nisi neque, in nunc metus. Posuere in egestas pharetra euismod commodo
+                            vitae
+                            consectetur. </p>
+                    </div>
+                </div>
+            </div>
         </div>
-
     </section>
-
-    <section class="my-20 container mx-auto">
-        <h3 class="roboto text-[56px] text-center font-extrabold text-[#0F172A] mt-20">
+    <section class="xl:my-20 lg:my-20 md:my-7 sm:mt-5 mt-2 container mx-auto">
+        <h3
+            class="roboto xl:text-[56px] lg:text-[56px] main-heading text-center font-extrabold text-[#0F172A] xl:mt-20 lg:mt-20 md:mt-7">
             Technology design articles
         </h3>
-        <p class="roboto text-center text-xl font-normal text-[#0F172A] mb-20">
+        <p
+            class="roboto text-center xl:text-xl lg:text-xl md:text-lg font-normal text-[#0F172A] xl:mb-20 lg:mb-20 md:mb-7 sm:mb-5 mb-4 xl:mt-0 lg:mt-0 md:mt-5 sm:mt-4 mt-3">
             Felis, semper ullamcorper sed pretium tristique vulputate semper massa ultrices. Integer orci gravida
             blandit amet.
         </p>
-        <div class="flex justify-around">
-            <div class="max-w-sm bg-white card-border">
+        <div class="flex justify-around align-middle xl:flex-nowrap lg:flex-nowrap md:flex-wrap sm:flex-wrap flex-wrap">
+            <div
+                class="xl:w-[350px] lg:w-[350px] md:w-[300px] sm:w-[250px] bg-white card-border mr-0 lg:mr-5 md:mr-5 blog_card">
                 <a href="#">
                     <img class="rounded-t-lg" src="../images/card-img-7.svg" alt="" />
                 </a>
                 <div class="p-5">
                     <a href="#">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                        <h5
+                            class="mb-2 xl:text-2xl lg:text-2xl md:text-xl sm:text-xl text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                             Title
                         </h5>
                     </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                    <p class="mb-3 font-normal roboto text-gray-700 dark:text-gray-400">
                         Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.
                     </p>
                     <a href="#"
@@ -571,17 +946,19 @@
                     </a>
                 </div>
             </div>
-            <div class="max-w-sm bg-white card-border">
+            <div
+                class="xl:w-[350px] lg:w-[350px] md:w-[300px] sm:w-[250px] bg-white card-border mr-0 lg:mr-5 md:mr-5 blog_card">
                 <a href="#">
                     <img class="rounded-t-lg" src="../images/card-img-8.svg" alt="" />
                 </a>
                 <div class="p-5">
                     <a href="#">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                        <h5
+                            class="mb-2 xl:text-2xl lg:text-2xl md:text-xl sm:text-xl text-xl  font-bold tracking-tight text-gray-900 dark:text-white">
                             Title
                         </h5>
                     </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                    <p class="mb-3 font-normal roboto text-gray-700 dark:text-gray-400">
                         Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.
                     </p>
                     <a href="#"
@@ -595,17 +972,19 @@
                     </a>
                 </div>
             </div>
-            <div class="max-w-sm bg-white card-border">
+            <div
+                class="xl:w-[350px] lg:w-[350px] md:w-[300px] sm:w-[250px] bg-white card-border mr-0 lg:mr-5 md:mr-5 xl:mt-0 lg:mt-0 md:mt-5 blog_card">
                 <a href="#">
                     <img class="rounded-t-lg" src="../images/card-img-9.svg" alt="" />
                 </a>
                 <div class="p-5">
                     <a href="#">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                        <h5
+                            class="mb-2 xl:text-2xl lg:text-2xl md:text-xl sm:text-xl text-xl  font-bold tracking-tight text-gray-900 dark:text-white">
                             Title
                         </h5>
                     </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                    <p class="mb-3 font-normal roboto text-gray-700 dark:text-gray-400">
                         Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.
                     </p>
                     <a href="#"
@@ -621,163 +1000,192 @@
             </div>
         </div>
     </section>
-    <section class=" mx-auto container px-8">
-
-        <h3 class="roboto text-[56px] text-center font-extrabold text-[#0F172A] mt-20">
+    <section class="mx-auto container px-8">
+        <h3
+            class="roboto xl:text-[56px] lg:text-[56px] main-heading text-center font-extrabold text-[#0F172A] xl:mt-20 lg:mt-20 md:mt-5 sm:mt-5 mt-5">
             Frequently asked questions
         </h3>
-        <div class="hs-accordion-group my-14">
-            <div class="hs-accordion" id="hs-basic-with-title-and-arrow-stretched-heading-two">
-                <button
-                    class="hs-accordion-toggle hs-accordion-active:text-blue-600 group py-8 accordion-border text-xl font-normal roboto inline-flex items-center justify-between gap-x-3 w-full text-left text-[#0F172A] transition"
-                    aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two">
-                    Enim sodales consequat adipiscing facilisis massa venenatis, non lorem lobortis?
-                    <svg class="hs-accordion-active:hidden hs-accordion-active:text-blue-600 hs-accordion-active:group-hover:text-blue-600 block w-3 h-3 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
-                        width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                    </svg>
-                    <svg class="hs-accordion-active:block hs-accordion-active:text-blue-600 hs-accordion-active:group-hover:text-blue-600 hidden w-3 h-3 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
-                        width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                    </svg>
-                </button>
-                <div id="hs-basic-with-title-and-arrow-stretched-collapse-two"
-                    class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
-                    aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two">
-                    <p class="text-gray-800 dark:text-gray-200">
-                        <em>This is the third item's accordion body.</em> It is hidden by default, until the collapse
-                        plugin adds the appropriate classes that we use to style each element. These classes control the
-                        overall appearance, as well as the showing and hiding via CSS transitions.
-                    </p>
+        <div class="hs-accordion-group xl:my-14 lg:my-14 md:my-7 sm:my-5 my-5">
+            <div id="accordionExample">
+                <div class=" bg-white">
+                    <h2 class="mb-0" id="headingOne">
+                        <button
+                            class="group relative flex w-full items-center rounded-none accordion-border bg-white px-0 xl:py-8 lg:py-8 md:py-6 sm:py-5 py-4 text-left xl:text-xl lg:text-xl md:text-base sm:text-base text-sm font-normal text-[#0F172A] roboto transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:bg-neutral-800 dark:text-white [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-primary [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)] dark:[&:not([data-te-collapse-collapsed])]:bg-neutral-800 dark:[&:not([data-te-collapse-collapsed])]:text-primary-400 dark:[&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(75,85,99)]"
+                            type="button" data-te-collapse-init data-te-collapse-collapsed data-te-target="#collapseOne"
+                            aria-expanded="false" aria-controls="collapseOne">
+                            Enim sodales consequat adipiscing facilisis massa venenatis, non lorem lobortis?
+                            <span
+                                class="-mr-1 ml-auto h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none dark:fill-blue-300 dark:group-[[data-te-collapse-collapsed]]:fill-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </span>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="!visible hidden" data-te-collapse-item aria-labelledby="headingOne"
+                        data-te-parent="#accordionExample">
+                        <div class="px-5 py-4 border border-gray-200">
+                            <strong>This is the first item's accordion body.</strong> It is
+                            hidden by default, until the collapse plugin adds the appropriate
+                            classes that we use to style each element. These classes control
+                            the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or
+                            overriding our default variables. It's also worth noting that just
+                            about any HTML can go within the <code>.accordion-body</code>,
+                            though the transition does limit overflow.
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="hs-accordion" id="hs-basic-with-title-and-arrow-stretched-heading-two">
-                <button
-                    class="hs-accordion-toggle hs-accordion-active:text-blue-600 group py-8 accordion-border text-xl font-normal roboto inline-flex items-center justify-between gap-x-3 w-full text-left text-[#0F172A] transition"
-                    aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two">
-                    Venenatis nulla sagittis nunc, lobortis nec sollicitudin neque, dolor? <svg
-                        class="hs-accordion-active:hidden hs-accordion-active:text-blue-600 hs-accordion-active:group-hover:text-blue-600 block w-3 h-3 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
-                        width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                    </svg>
-                    <svg class="hs-accordion-active:block hs-accordion-active:text-blue-600 hs-accordion-active:group-hover:text-blue-600 hidden w-3 h-3 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
-                        width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                    </svg>
-                </button>
-                <div id="hs-basic-with-title-and-arrow-stretched-collapse-two"
-                    class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
-                    aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two">
-                    <p class="text-gray-800 dark:text-gray-200">
-                        <em>This is the third item's accordion body.</em> It is hidden by default, until the collapse
-                        plugin adds the appropriate classes that we use to style each element. These classes control the
-                        overall appearance, as well as the showing and hiding via CSS transitions.
-                    </p>
+                <div class=" bg-white">
+                    <h2 class="mb-0" id="headingTwo">
+                        <button
+                            class="group relative flex w-full items-center rounded-none accordion-border bg-white px-0 xl:py-8 lg:py-8 md:py-6 sm:py-5 py-4 text-left xl:text-xl lg:text-xl md:text-base sm:text-base text-sm font-normal text-[#0F172A] roboto transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:bg-neutral-800 dark:text-white [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-primary [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)] dark:[&:not([data-te-collapse-collapsed])]:bg-neutral-800 dark:[&:not([data-te-collapse-collapsed])]:text-primary-400 dark:[&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(75,85,99)]"
+                            type="button" data-te-collapse-init data-te-collapse-collapsed data-te-target="#collapseTwo"
+                            aria-expanded="false" aria-controls="collapseTwo">
+                            Venenatis nulla sagittis nunc, lobortis nec sollicitudin neque, dolor?
+
+                            <span
+                                class="-mr-1 ml-auto h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none dark:fill-blue-300 dark:group-[[data-te-collapse-collapsed]]:fill-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </span>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="!visible hidden" data-te-collapse-item aria-labelledby="headingTwo"
+                        data-te-parent="#accordionExample">
+                        <div class="px-5 py-4 border border-gray-200">
+                            <strong>This is the second item's accordion body.</strong> It is
+                            hidden by default, until the collapse plugin adds the appropriate
+                            classes that we use to style each element. These classes control
+                            the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or
+                            overriding our default variables. It's also worth noting that just
+                            about any HTML can go within the <code>.accordion-body</code>,
+                            though the transition does limit overflow.
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="hs-accordion" id="hs-basic-with-title-and-arrow-stretched-heading-two">
-                <button
-                    class="hs-accordion-toggle hs-accordion-active:text-blue-600 group py-8 accordion-border text-xl font-normal roboto inline-flex items-center justify-between gap-x-3 w-full text-left text-[#0F172A] transition"
-                    aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two">
-                    Varius ultricies molestie tellus fermentum, viverra ipsum scelerisque etiam lorem? <svg
-                        class="hs-accordion-active:hidden hs-accordion-active:text-blue-600 hs-accordion-active:group-hover:text-blue-600 block w-3 h-3 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
-                        width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                    </svg>
-                    <svg class="hs-accordion-active:block hs-accordion-active:text-blue-600 hs-accordion-active:group-hover:text-blue-600 hidden w-3 h-3 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
-                        width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                    </svg>
-                </button>
-                <div id="hs-basic-with-title-and-arrow-stretched-collapse-two"
-                    class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
-                    aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two">
-                    <p class="text-gray-800 dark:text-gray-200">
-                        <em>This is the third item's accordion body.</em> It is hidden by default, until the collapse
-                        plugin adds the appropriate classes that we use to style each element. These classes control the
-                        overall appearance, as well as the showing and hiding via CSS transitions.
-                    </p>
+                <div class="rounded-b-lg bg-white">
+                    <h2 class="accordion-header mb-0" id="headingThree">
+                        <button
+                            class="group relative flex w-full items-center accordion-border bg-white px-0 xl:py-8 lg:py-8 md:py-6 sm:py-5 py-4 text-left xl:text-xl lg:text-xl md:text-base sm:text-base text-sm font-normal text-[#0F172A] roboto transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:bg-neutral-800 dark:text-white [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-primary [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)] dark:[&:not([data-te-collapse-collapsed])]:bg-neutral-800 dark:[&:not([data-te-collapse-collapsed])]:text-primary-400 dark:[&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(75,85,99)] [&[data-te-collapse-collapsed]]:rounded-b-[15px] [&[data-te-collapse-collapsed]]:transition-none"
+                            type="button" data-te-collapse-init data-te-collapse-collapsed
+                            data-te-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Varius ultricies molestie tellus fermentum, viverra ipsum scelerisque etiam lorem?
+                            <span
+                                class="-mr-1 ml-auto h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none dark:fill-blue-300 dark:group-[[data-te-collapse-collapsed]]:fill-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </span>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="!visible hidden" data-te-collapse-item aria-labelledby="headingThree"
+                        data-te-parent="#accordionExample">
+                        <div class="px-5 py-4 border border-gray-200">
+                            <strong>This is the third item's accordion body.</strong> It is
+                            hidden by default, until the collapse plugin adds the appropriate
+                            classes that we use to style each element. These classes control
+                            the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or
+                            overriding our default variables. It's also worth noting that just
+                            about any HTML can go within the <code>.accordion-body</code>,
+                            though the transition does limit overflow.
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="hs-accordion" id="hs-basic-with-title-and-arrow-stretched-heading-two">
-                <button
-                    class="hs-accordion-toggle hs-accordion-active:text-blue-600 group py-8 accordion-border text-xl font-normal roboto inline-flex items-center justify-between gap-x-3 w-full text-left text-[#0F172A] transition"
-                    aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two">
-                    Nulla etiam vitae, at sagittis, nibh ultrices mattis feugiat faucibus? <svg
-                        class="hs-accordion-active:hidden hs-accordion-active:text-blue-600 hs-accordion-active:group-hover:text-blue-600 block w-3 h-3 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
-                        width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                    </svg>
-                    <svg class="hs-accordion-active:block hs-accordion-active:text-blue-600 hs-accordion-active:group-hover:text-blue-600 hidden w-3 h-3 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
-                        width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                    </svg>
-                </button>
-                <div id="hs-basic-with-title-and-arrow-stretched-collapse-two"
-                    class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
-                    aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two">
-                    <p class="text-gray-800 dark:text-gray-200">
-                        <em>This is the third item's accordion body.</em> It is hidden by default, until the collapse
-                        plugin adds the appropriate classes that we use to style each element. These classes control the
-                        overall appearance, as well as the showing and hiding via CSS transitions.
-                    </p>
+                <div class="rounded-b-lg bg-white">
+                    <h2 class="accordion-header mb-0" id="headingFive">
+                        <button
+                            class="group relative flex w-full items-center accordion-border px-0 xl:py-8 lg:py-8 md:py-6 sm:py-5 py-4 text-left xl:text-xl lg:text-xl md:text-base sm:text-base text-sm font-normal text-[#0F172A] roboto transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:bg-neutral-800 dark:text-white [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-primary [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)] dark:[&:not([data-te-collapse-collapsed])]:bg-neutral-800 dark:[&:not([data-te-collapse-collapsed])]:text-primary-400 dark:[&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(75,85,99)] [&[data-te-collapse-collapsed]]:rounded-b-[15px] [&[data-te-collapse-collapsed]]:transition-none"
+                            type="button" data-te-collapse-init data-te-collapse-collapsed
+                            data-te-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Nulla etiam vitae, at sagittis, nibh ultrices mattis feugiat faucibus?
+                            <span
+                                class="-mr-1 ml-auto h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none dark:fill-blue-300 dark:group-[[data-te-collapse-collapsed]]:fill-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </span>
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="!visible hidden" data-te-collapse-item aria-labelledby="headingFive"
+                        data-te-parent="#accordionExample">
+                        <div class="px-5 py-4 border border-gray-200">
+                            <strong>This is the fourth item's accordion body.</strong> It is
+                            hidden by default, until the collapse plugin adds the appropriate
+                            classes that we use to style each element. These classes control
+                            the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or
+                            overriding our default variables. It's also worth noting that just
+                            about any HTML can go within the <code>.accordion-body</code>,
+                            though the transition does limit overflow.
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="hs-accordion" id="hs-basic-with-title-and-arrow-stretched-heading-two">
-                <button
-                    class="hs-accordion-toggle hs-accordion-active:text-blue-600 group py-8 accordion-border text-xl font-normal roboto inline-flex items-center justify-between gap-x-3 w-full text-left text-[#0F172A] transition"
-                    aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two">
-                    Sagittis consectetur gravida nec turpis eros, id sit et, dictum? <svg
-                        class="hs-accordion-active:hidden hs-accordion-active:text-blue-600 hs-accordion-active:group-hover:text-blue-600 block w-3 h-3 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
-                        width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                    </svg>
-                    <svg class="hs-accordion-active:block hs-accordion-active:text-blue-600 hs-accordion-active:group-hover:text-blue-600 hidden w-3 h-3 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
-                        width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                    </svg>
-                </button>
-                <div id="hs-basic-with-title-and-arrow-stretched-collapse-two"
-                    class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
-                    aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two">
-                    <p class="text-gray-800 dark:text-gray-200">
-                        <em>This is the third item's accordion body.</em> It is hidden by default, until the collapse
-                        plugin adds the appropriate classes that we use to style each element. These classes control the
-                        overall appearance, as well as the showing and hiding via CSS transitions.
-                    </p>
+                <div class="rounded-b-lg bg-white">
+                    <h2 class="accordion-header mb-0" id="headingSix">
+                        <button
+                            class="group relative flex w-full items-center accordion-border px-0 xl:py-8 lg:py-8 md:py-6 sm:py-5 py-4 text-left xl:text-xl lg:text-xl md:text-base sm:text-base text-sm font-normal text-[#0F172A] roboto transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:bg-neutral-800 dark:text-white [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-primary [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)] dark:[&:not([data-te-collapse-collapsed])]:bg-neutral-800 dark:[&:not([data-te-collapse-collapsed])]:text-primary-400 dark:[&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(75,85,99)] [&[data-te-collapse-collapsed]]:rounded-b-[15px] [&[data-te-collapse-collapsed]]:transition-none"
+                            type="button" data-te-collapse-init data-te-collapse-collapsed data-te-target="#collapseSix"
+                            aria-expanded="false" aria-controls="collapseSix">
+                            Sagittis consectetur gravida nec turpis eros, id sit et, dictum?
+                            <span
+                                class="-mr-1 ml-auto h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none dark:fill-blue-300 dark:group-[[data-te-collapse-collapsed]]:fill-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </span>
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="!visible hidden" data-te-collapse-item aria-labelledby="headingSix"
+                        data-te-parent="#accordionExample">
+                        <div class="px-5 py-4 border border-gray-200">
+                            <strong>This is the fifth item's accordion body.</strong> It is
+                            hidden by default, until the collapse plugin adds the appropriate
+                            classes that we use to style each element. These classes control
+                            the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or
+                            overriding our default variables. It's also worth noting that just
+                            about any HTML can go within the <code>.accordion-body</code>,
+                            though the transition does limit overflow.
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="bg-[#701A75] mt-20 pb-20">
-        <div class="container mx-auto pt-14">
-            <h2 class=" text-white roboto text-[56px] font-extrabold text-center">
+    <section class="bg-[#701A75] xl:mt-20 lg:mt-20 md:mt-5 sm:mt-5 mt-4 xl:pb-20 lg:pb-20 md:pb-10 sm:pb-7 pb-5">
+        <div class="container mx-auto xl:pt-14 lg:pt-14 md:pt-10 sm:pt-7 pt-5">
+            <h2 class=" text-white roboto xl:text-[56px] lg:text-[56px] main-heading font-extrabold text-center">
                 Ready for your next project?
             </h2>
-            <p class="mt-8 text-3xl font-light roboto text-white text-center">
+            <p
+                class="xl:mt-8 lg:mt-8 md:mt-4 sm:mt-3 mt-3 xl:text-3xl lg:text-3xl md:text-xl sm:text-lg text-lg font-light roboto text-white text-center">
                 Sit elit feugiat turpis sed integer integer accumsan turpis.
             </p>
             <div class="flex justify-center align-middle">
                 <button type="button"
-                    class="mt-[32px] px-12 py-5 roboto font-bold text-2xl bg-[#0f172a] text-white inline-flex items-center focus:outline-none rounded-lg text-center ">
+                    class="xl:mt-[32px] lg:mt-[32px] md:mt-[32px] sm:mt-[25px] mt-[15px] xl:px-12 lg:px-12 md:px-9 sm:px-5 px-4 xl:py-5 lg:py-5 md:py-4 sm:py-3 py-3 roboto font-bold xl:text-2xl lg:text-2xl md:text-lg sm:text-lg text-base  bg-[#0f172a] text-white inline-flex items-center focus:outline-none rounded-lg text-center ">
                     Request Demo
                 </button>
             </div>
         </div>
     </section>
 
-    <footer class="bg-white">
-        <div class="mx-auto w-full max-w-screen-xl">
+    <footer class="bg-white xl:container lg:container md:w-full sm:w-full mx-auto">
+        <div class="mx-auto w-full">
             <div class="grid grid-cols-2 gap-8 px-4 my-12 lg:py-8 md:grid-cols-5">
                 <div>
                     <a href="#" class="flex items-center">
@@ -859,7 +1267,33 @@
                 <span class="text-base roboto font-normal text-[#0F172A] sm:text-center">@ 2023 <a href="#">protech</a>,
                     Inc. All rights reserved.
                 </span>
-                <div class="flex mt-4  sm:justify-center md:mt-0">
+                <div class="xl:block lg:block md:block sm:hidden hidden">
+                    <div class="flex mt-4 sm:justify-center md:mt-0">
+                        <a href="#" class="text-[#475569] roboto text-base font-normal mr-6">Terms
+                        </a>
+                        <a href="#" class="text-[#475569] roboto text-base font-normal mr-6">Privacy
+                        </a>
+                        <a href="#" class="text-[#475569] roboto text-base font-normal mr-12">Contact
+                        </a>
+                        <a href="#" class="mr-4">
+                            <img src="../images/youtube.svg" alt="">
+                        </a>
+                        <a href="#" class="mr-4">
+                            <img src="../images/facebook.svg" alt="">
+                        </a>
+                        <a href="#" class="mr-4">
+                            <img src="../images/twitter.svg" alt="">
+                        </a>
+                        <a href="#" class="mr-4">
+                            <img src="../images/instagram.svg" alt="">
+                        </a>
+                        <a href="#" class="mr-4">
+                            <img src="../images/linkedin.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+               <div class="xl:hidden lg:hidden md:hidden sm:block block">
+                <div class="flex mt-4 sm:justify-start align-middle flex-wrap md:mt-0">
                     <a href="#" class="text-[#475569] roboto text-base font-normal mr-6">Terms
                     </a>
                     <a href="#" class="text-[#475569] roboto text-base font-normal mr-6">Privacy
@@ -882,11 +1316,15 @@
                         <img src="../images/linkedin.svg" alt="">
                     </a>
                 </div>
+               </div>
             </div>
         </div>
     </footer>
     <script src="./index.js"></script>
+    <script src="./slider.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
 
 </body>
 
