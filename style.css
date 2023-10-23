@@ -230,7 +230,11 @@ swiper-button-next{
         left: -18px !important;
         width: 110% !important;
     }
-    
+    .icon-container{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
 
 }
 
